@@ -13,7 +13,7 @@ api_key = st.sidebar.text_input("Enter Google Gemini API Key:", type="password")
 
 if api_key:
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     # Mode Selector
     mode = st.sidebar.selectbox("Choose Learning Mode", ["Concept Explainer", "Quiz Generator", "Homework Helper"])
