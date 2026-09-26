@@ -5,7 +5,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="EduGenie - AI Learning Assistant", page_icon="🎓", layout="wide")
 
 st.title("🎓 EduGenie: Gemini-Powered Learning Assistant")
-st.image("https://github.com/smooth-sumaiya/EduGenie-Gemini-Learning-Assistant/blob/main/image_4d9a0e77.jpg?raw=true", use_container_width=True)
+st.image("https://github.com/smooth-sumaiya/EduGenie-Gemini-Learning-Assistant/blob/main/image_4d9a0e77.jpg?raw=true", width=150)
 st.write("Your personal AI tutor for summarizing concepts, generating quizzes, and solving doubts.")
 
 # Sidebar for API Key Setup
